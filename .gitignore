@@ -1,2 +1,8 @@
-rom.nes
-rom.sha
+# ignores the rom files
+rom.*
+
+# ignores recordings
+*.bk2
+
+# ignores the q-table file
+qtable.npy
