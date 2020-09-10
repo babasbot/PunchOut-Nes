@@ -1,0 +1,60 @@
+{
+  "info": {
+    "fight_status": {
+      "address": 0,
+      "type": "|u1"
+    },
+    "hearts_10": {
+      "address": 803,
+      "type": "|u1"
+    },
+    "hearts_01": {
+      "address": 804,
+      "type": "|u1"
+    },
+    "clock_seconds_0x": {
+      "address": 773,
+      "type": "|u1"
+    },
+    "clock_seconds_x0": {
+      "address": 772,
+      "type": "|u1"
+    },
+    "clock_minutes": {
+      "address": 770,
+      "type": "|u1"
+    },
+    "little_mac_health": {
+      "address": 913,
+      "type": "|u1"
+    },
+    "opponents_health": {
+      "address": 920,
+      "type": "|u1"
+    },
+    "score_000001": {
+      "address": 1005,
+      "type": "|u1"
+    },
+    "score_000010": {
+      "address": 1004,
+      "type": "|u1"
+    },
+    "score_000100": {
+      "address": 1003,
+      "type": "|u1"
+    },
+    "score_001000": {
+      "address": 1002,
+      "type": "|u1"
+    },
+    "score_010000": {
+      "address": 1002,
+      "type": "|u1"
+    },
+    "score_100000": {
+      "address": 1000,
+      "type": "|u1"
+    }
+  }
+}
