@@ -1,0 +1,16 @@
+{
+  "done": {
+    "script": "lua:done"
+  },
+  "reward": {
+    "script": "lua:reward"
+  },
+  "actions": [
+    [[], ["UP"], ["DOWN"]],
+    [[], ["LEFT"], ["RIGHT"]],
+    [[], ["A"], ["B"], ["START"]]
+  ],
+  "scripts": [
+    "script.lua"
+  ]
+}
