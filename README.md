@@ -21,6 +21,12 @@ python -m retro.import /path/to/your/ROMs/directory/
 
 For further information, please refer to Gym Retro's [Game Integration](https://retro.readthedocs.io/en/latest/integration.html) docs.
 
+## Run the agent
+
+```
+./agent.py
+```
+
 ## LICENSE
 
 This is free software, distributed under the terms of the GNU General Public
