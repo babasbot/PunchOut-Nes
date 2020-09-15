@@ -16,11 +16,12 @@ def main():
     env = retro.make(game=game, state=state, use_restricted_actions=actions, record=record)
     obs = env.reset()
 
+    # hyper parameters
     epsilon       = 1.0
     epsilon_min   = 0.005
     epsilon_decay = 0.99993
-    alpha         = 0.65
-    gamma         = 0.65
+    alpha         = 0.9
+    gamma         = 0.9
 
     max_steps = 999999
     episode   = 0
