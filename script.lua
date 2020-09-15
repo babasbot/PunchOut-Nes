@@ -3,7 +3,7 @@ function done()
 end
 
 function reward()
-  return score() * 100 + time()
+  return time() / (knock_downs() + 1) + (1/100000 * score() * time()^2 + 1)
 end
 
 function score()
@@ -13,6 +13,10 @@ function score()
          data.score_000100 * 100    +
          data.score_000010 * 10     +
          data.score_000001
+end
+
+function knock_downs()
+  return data.knock_downs
 end
 
 function time()
