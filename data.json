@@ -12,6 +12,10 @@
       "address": 804,
       "type": "|u1"
     },
+    "knock_downs": {
+      "address": 976,
+      "type": "|u1"
+    },
     "clock_seconds_0x": {
       "address": 773,
       "type": "|u1"
